@@ -12,3 +12,6 @@ To see the result, run:
 ```sh
 latexmk demo
 ```
+
+It looks like this:
+![page 1 preview](page1.png)![page 2 preview](page2.png)
