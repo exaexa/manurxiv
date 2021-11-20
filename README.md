@@ -13,5 +13,5 @@ To see the result, run:
 latexmk demo
 ```
 
-It looks like this:
+In the two-column version it looks like this:
 ![page 1 preview](page1.png)![page 2 preview](page2.png)
