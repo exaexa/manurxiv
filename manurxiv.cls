@@ -1,3 +1,4 @@
+% LICENSE: This file is hereby released to public domain.
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{manurxiv}[2021/11/20 Manuscript draft class suitable for arXivs]
 
