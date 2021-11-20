@@ -1,0 +1,48 @@
+\documentclass[11pt,libertinus,twocolumn]{manurxiv}
+
+\usepackage{lipsum}
+
+\title{Demo of the tiny manurxiv class}
+\version{Pretty final-looking draft}
+
+\author[1]{Author The First}
+\author[2,$\ast$]{Second Author}
+\affil[1]{Venerable Institute of Country, Street 31, 123 45 City, Country}
+\affil[2]{University Of High Regard, Main Square 6, AB321 Large Town, Kingdom}
+\affil[$\ast$]{Contact: \tt second.author@uhr.edu}
+\abstract{\lipsum[1]}
+
+\begin{document}
+\maketitle
+\linenumbers
+\section{Introduction}
+\lipsum[2-3]
+
+\section{Methods}
+\lipsum[4-5]
+
+\section{Results}
+\begin{figure}
+\centering\fbox{\Huge Figure!}
+\caption{\lipsum[2]}
+\end{figure}
+
+\begin{table}
+\centering
+\begin{tabular}{lrr}
+\toprule
+A & B & C \\
+\midrule
+XXX & 1 & 12 \\
+YYYY & 123 & 1234 \\
+ZZZZZ & 12345 & 654321 \\
+\bottomrule
+\end{tabular}
+\caption{\lipsum[2]}
+\end{table}
+
+\lipsum[6-7]
+
+\section{Discussion}
+\lipsum[8]
+\end{document}
