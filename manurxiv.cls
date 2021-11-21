@@ -41,7 +41,7 @@
  \RequirePackage{lineno}
 \fi
 \RequirePackage{xcolor}
-\renewcommand{\linenumberfont}{\tiny\color{black!33}}
+\renewcommand{\linenumberfont}{\tiny\sffamily\color{black!33}}
 
 % provide a bit more space between columns
 \setlength\columnsep{2em}
